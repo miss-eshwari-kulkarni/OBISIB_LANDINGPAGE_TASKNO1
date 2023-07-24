@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eshh arts gallery</title>
+	<!-- link rel="stylesheet" type="text/css" href="style.css"> -->
+  <style>
+body{
+  background-image: url(g4.jpg);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    height: 100%;
+    margin: 0 60px;
+    line-height: 60px;
+    font-size: 18px;
+    color:white;
+    cursor: pointer;
+    transition: color .5s;
+  } 
+.top-arts{
+    background-color: rgb(68, 4, 4);
+    width: 90%;
+    margin: 0 auto 20px auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    box-shadow:  3px 5px 3px grey;
+    list-style-type: none;
+}
+.container{
+    width: 100%;
+    text-align: center;
+}
+
+.container1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40px 20px 0 20px;
+}
+
+.container1 .heading{
+  width: 50%;
+  padding-bottom: 50px;
+}
+/* .container1 .heading h3{
+  font-size: 3em;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #222;
+} */
+h1{
+  font-size: 35px;
+  color: aliceblue;
+  padding-top: 110px;
+  padding-bottom: 30px;
+}
+
+.container1 .box{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ /* transform: scale(1.1); */
+}
+.container1 .box .dream{
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+  /* transform: scale(1.1); */
+}
+.container1 .box .dream img{
+  width: 100%;
+  padding-bottom: 15px;
+  border-radius: 5px;
+  /* transform: scale(1.1); */
+  
+}
+.container1 .btn{
+  margin: 5px 0 70px 0;
+  background: powderblue;
+  padding: 10px 40px ;
+  border-radius: 5px;
+}
+.container1 .btn a{
+ color: black;
+ font-size: 1.2em;
+ text-decoration: none;
+ font-weight: bolder;
+ letter-spacing: 3px;
+}
+@media only screen and (max-width: 769px){
+    .container1 .box{
+   flex-direction: column;
+  }
+.container1 .box .dream{
+  width: 100%;
+}
+}
+@media only screen and (max-width: 643px){
+.container1 .heading{
+  width: 100%;
+}
+.container1 .heading h3{
+  font-size: 1em;
+}
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1><b><u>!!MY WORKS!!</u></b></h1>
+    <div class="top-arts">
+
+        <a href="index.html">Home</a>
+        <li><a href="quotes.html">Quotes</a></li>
+        <li><a href="types.html">Types</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about us.html">About us</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+    </div>
+    </div>
+
+</div>
+  <div class="container1">
+    <!-- <div class="heading">
+      <h3><b>!!My Works!!</b></h3>
+    </div> -->
+    <div class="box">
+      
+      <div class="dream">
+        <img src="art1.jpg">
+         <img src="art2.jpg">
+          <img src="art6.jpg">           >
+           <img src="art17.jpg">
+            <img src="art9.jpg">
+             <img src="art34.jpg">
+            
+      </div>
+
+        <div class="dream">
+        <img src="art15.jpg">
+         <img src="art41.jpg">
+          <img src="art19.jpg">
+           <img src="art5.jpg">
+            <img src="art31.jpg">
+            
+      </div>
+
+        <div class="dream">
+        <img src="art3.jpg">
+         <img src="art7.jpg">
+          <img src="art8.jpg">
+           <img src="art18.jpg">
+            <img src="art42.jpg">
+            <img src="art36.jpg">
+            
+      </div>
+    </div>
+    <div class="btn">
+      <a href="#">More</a>
+    </div>
+  </div>
+
+</body>
+</html>

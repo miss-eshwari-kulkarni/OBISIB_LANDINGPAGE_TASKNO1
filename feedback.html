@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eshh arts feedback</title>
+    <style>
+    body{
+      background-image: url(bg2.webp);
+      background-size: cover;
+    }
+    *{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    a {
+    text-decoration: none;
+    display: inline-block;
+    height: 100%;
+    margin: 0 60px;
+    line-height: 60px;
+    font-size: 18px;
+    color:white;
+    cursor: pointer;
+    transition: color .5s;
+}
+.top-arts{
+    background-color: rgb(68, 4, 4);
+    width: 90%;
+    margin: 0 auto 20px auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    box-shadow:  3px 5px 3px  lightgrey;
+}
+.container{
+    width: 100%;
+    text-align: center;
+}
+    form{
+         text-align: center;
+    }
+    h1{
+       font-size: 50px;
+       /* border-bottom: 3px solid black; */
+    }
+    h1:hover{ 
+        background-color: rgb(230, 230, 54);
+        transition: 0.4s ease;
+    }
+    p{
+       font-size: 30px;
+       
+    } 
+    input { 
+     width: 400px;
+     height: 40px;
+     border-radius: 30px;
+     border-color: aquamarine;
+     font-size: 20px;
+   }
+   input:hover{
+    background-color:rgb(230, 230, 54) ;
+        transition: 0.4s ease;
+   }  
+   textarea{
+       width: 400px;
+     height: 80px;
+     border-radius: 10px;
+     border-color: aquamarine;
+     font-size: 20px;
+  }
+  textarea:hover{
+      background-color: rgb(230, 230, 54);
+      transition: 0.4s ease;
+  }
+  .btn{    
+     padding: 0% 7%;
+     border-radius: 30px;
+     border-color: aquamarine;
+     background-color:rgb(112, 230, 112);
+ 
+     
+     border-style: inset;
+     font-size: 25px;
+     color: black;
+     text-decoration: none;
+ }
+ .btn:hover{
+    background-color: rgb(230, 230, 54);
+        transition: 0.4s ease;
+ }
+    </style>
+  
+</head>
+
+<body>
+        
+    <script>
+        function validateForm() {
+          let x = document.forms["myForm"]["name"].value;
+          if (x == "") {
+            alert("Name must be filled out");
+            return false;
+          }
+        }
+    </script>
+    
+</head>
+<body>
+  <div class="container">
+    <h1><b><u>!!WORLD OF ART!!</u></b></h1>
+    <div class="top-arts">
+
+        <a href="index.html">Home</a>
+        <a href="quotes.html">Quotes</a></li>
+        <a href="types.html">Types</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <a href="about us.html">About us</a></li>
+        <a href="feedback.html">Feedback</a></li>
+
+
+    </div>
+    </div>
+    
+    <form name="myForm" action="" onsubmit="return validateForm()" method="post">
+    <h1><i>Feedback Form </i> </h1>
+    <p>First Name: <input type="text" name="firstname" required></p>
+    <p>Last  Name: <input type="text" name="lastname" required></p>
+    <p>Email address: <input type="address" name="email address" required></p>
+    <p>Mobile No: <input type="number" mobile no="mobile no" required></p>
+    <p>feedback: <textarea name="address" id="address" cols="45" rows="5"required></textarea></p>
+   
+    <a href="submit.html" class="btn">Submit</a>
+    </form>
+</body>
+
+</html

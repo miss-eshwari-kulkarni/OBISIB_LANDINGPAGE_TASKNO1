@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eshh arts types</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+
+      $("#flip1").click(function () {
+        $("#panel1").slideToggle("slow");
+      });
+
+      $("#flip2").click(function () {
+        $("#panel2").slideToggle("slow");
+      });
+
+      $("#flip3").click(function () {
+        $("#panel3").slideToggle("slow");
+      });
+
+      $("#flip4").click(function () {
+        $("#panel4").slideToggle("slow");
+      });
+
+      $("#flip5").click(function () {
+        $("#panel5").slideToggle("slow");
+      });
+
+      $("#flip6").click(function () {
+        $("#panel6").slideToggle("slow");
+      });
+
+      $("#flip7").click(function () {
+        $("#panel7").slideToggle("slow");
+      });
+
+      $("#flip8").click(function () {
+        $("#panel8").slideToggle("slow");
+      });
+
+      $("#flip9").click(function () {
+        $("#panel9").slideToggle("slow");
+      });
+
+      $("#flip10").click(function () {
+        $("#panel10").slideToggle("slow");
+      });
+
+    });
+  </script>
+  <style>
+    body {
+      background-image: url(t7.jpg);
+    }
+
+    a {
+      text-decoration: none;
+      display: inline-block;
+      height: 100%;
+      margin: 0 60px;
+      line-height: 60px;
+      font-size: 18px;
+      color: white;
+      cursor: pointer;
+      transition: color .5s;
+    }
+
+    .top-arts {
+      background-color: rgb(68, 4, 4);
+      width: 90%;
+      margin: 0 auto 20px auto;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      border-radius: 3px;
+      box-shadow: 3px 5px 3px grey;
+      list-style-type: none;
+    }
+
+    .container {
+      width: 100%;
+      text-align: center;
+    }
+
+    #panel1,
+    #flip1 {
+      padding: 50px;
+      text-align: center;
+      background-color: rgb(243, 243, 72);
+      border: solid 1px #c3c3c3;
+      font-size: 35px;
+      color: black;
+
+    }
+
+    #panel1 {
+      padding: 50px;
+      display: none;
+      background-color: white;
+      text-align: left;
+      font-size: 25px;
+    }
+
+    #panel2,
+    #flip2 {
+      padding: 50px;
+      text-align: center;
+      background-color: rgb(242, 45, 45);
+      border: solid 1px #c3c3c3;
+      font-size: 35px;
+    }
+
+    #panel2 {
+      padding: 50px;
+      display: none;
+      background-color: white;
+      text-align: left;
+      font-size: 25px;
+    }
+
+    #panel3,
+    #flip3 {
+      padding: 50px;
+      text-align: center;
+      background-color: lightgreen;
+      border: solid 1px #c3c3c3;
+      font-size: 35px;
+    }
+
+    #panel3 {
+      padding: 50px;
+      display: none;
+      background-color: white;
+      text-align: left;
+      font-size: 25px;
+    }
+
+    #panel4,
+    #flip4 {
+      padding: 50px;
+      text-align: center;
+      background-color: rgb(238, 80, 238);
+      border: solid 1px #c3c3c3;
+      font-size: 35px;
+    }
+
+    #panel4 {
+      padding: 50px;
+      display: none;
+      background-color: white;
+      text-align: left;
+      font-size: 25px;
+    }
+
+    #panel5,
+    #flip5 {
+      padding: 50px;
+      text-align: center;
+      background-color: skyblue;
+      border: solid 1px #c3c3c3;
+      font-size: 35px;
+    }
+
+    #panel5 {
+      padding: 50px;
+      display: none;
+      background-color: white;
+      text-align: left;
+      font-size: 25px;
+    }
+
+    #panel6,
+    #flip6 {
+      padding: 50px;
+      text-align: center;
+      background-color: rgb(216, 63, 63);
+      border: solid 1px #c3c3c3;
+      font-size: 35px;
+    }
+
+    #panel6 {
+      padding: 50px;
+      display: none;
+      background-color: white;
+      text-align: left;
+      font-size: 25px;
+    }
+
+    #panel7,
+    #flip7 {
+      padding: 50px;
+      text-align: center;
+      background-color: rgb(240, 151, 166);
+      border: solid 1px #c3c3c3;
+      font-size: 35px;
+    }
+
+    #panel7 {
+      padding: 50px;
+      display: none;
+      background-color: white;
+      text-align: left;
+      font-size: 25px;
+    }
+
+    #panel8,
+    #flip8 {
+      padding: 50px;
+      text-align: center;
+      background-color: rgb(83, 83, 246);
+      border: solid 1px #c3c3c3;
+      font-size: 35px;
+    }
+
+    #panel8 {
+      padding: 50px;
+      display: none;
+      background-color: white;
+      text-align: left;
+      font-size: 25px;
+    }
+
+    #panel9,
+    #flip9 {
+      padding: 50px;
+      text-align: center;
+      background-color: rgb(241, 187, 86);
+      border: solid 1px #c3c3c3;
+      font-size: 35px;
+    }
+
+    #panel9 {
+      padding: 50px;
+      display: none;
+      background-color: white;
+      text-align: left;
+      font-size: 25px;
+    }
+
+    #panel10,
+    #flip10 {
+      padding: 50px;
+      text-align: center;
+      background-color: rgb(73, 243, 73);
+      border: solid 1px #c3c3c3;
+      font-size: 35px;
+    }
+
+    #panel10 {
+      padding: 50px;
+      display: none;
+      background-color: white;
+      text-align: left;
+      font-size: 25px;
+    }
+
+    .container1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin: 40px 20px 0 20px;
+    }
+  
+    .container1 .heading {
+      width: 50%;
+      padding-bottom: 50px;
+    }
+    
+    .container1 .box {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+   
+    .container1 .box .dream {
+      display: flex;
+      flex-direction: column;
+      width: 32.5%;
+    }
+    
+    .container1 .box .dream img {
+      width: 70%;
+      padding-bottom: 15px;
+      border-radius: 5px;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1><b>!!WORLD OF ART!!</b></h1>
+    <div class="top-arts">
+
+      <a href="index.html">Home</a>
+      <li><a href="quotes.html">Quotes</a></li>
+      <li><a href="types.html">Types</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="about us.html">About us</a></li>
+      <li><a href="feedback.html">Feedback</a></li>
+
+    </div>
+
+    <div id="flip1"><b>Mandala Art</b></div>
+    <div id="panel1"><b><u>#What is a Mandala?</u></b>
+      <br>
+      <p>A mandala is a spiritual and ritual symbol in Asian cultures. It can be understood in two different ways the
+        externally as a visual representation of the universe or internally as a guide for several practices that take
+        place in many Asian traditions, including meditation. In Hinduism and Buddhism, the belief is that by entering
+        the
+        mandala and proceeding towards its center, you are guided through the cosmic process of transforming the
+        universe
+        from one of suffering into one of joy and happiness.
+      </p>
+    
+      <div class="container1">
+        <div class="box">
+          <div class="dream">
+            <img src="m1.jpg">
+          </div>
+          <div class="dream">
+            <img src="m3.webp">
+          </div>
+          <div class="dream">
+            <img src="m2.jpg">
+          </div>
+          <div class="dream">
+            <img src="m5.jpg">
+          </div>
+          <div class="dream">
+            <img src="m4.jpg">
+          </div>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="flip2"><b>Doodle Art</b></div>
+  <div id="panel2"><b><u>#What is a Doodle?</u></b>
+    <br>
+    <p>
+      A doodle is a drawing made while a person's attention is otherwise occupied. Doodles are simple drawings that can
+      have concrete representational meaning or may just be composed of random and abstract lines, generally without
+      ever lifting the drawing device from the paper, in which case it is usually called a scribble.
+    </p>
+    <div class="container1">
+      <div class="box">
+        <div class="dream">
+          <img src="d1.jpg">
+        </div>
+        <div class="dream">
+          <img src="d4.png">
+        </div>
+        <div class="dream">
+          <img src="d2.webp">
+        </div>
+        <div class="dream">
+          <img src="d5.jpg">
+        </div>
+        <div class="dream">
+          <img src="d3.jpg">
+        </div>
+      
+      </div>
+    </div>
+    </div>
+
+  <div id="flip3"><b>Sketch</b></div>
+  <div id="panel3"><b><u>#What is Sketch?</u></b>
+    <br>
+    <p>
+      Sketch, traditionally a rough drawing or painting in which an artist notes down his preliminary ideas for a work
+      that will eventually be realized with greater precision and detail. The term also applies to brief creative pieces
+      that per se may have artistic merit.
+    </p>
+    <div class="container1">
+      <div class="box">
+        <div class="dream">
+          <img src="s1.jpg">
+        </div>
+        <div class="dream">
+          <img src="s2.jpg">
+        </div>
+        <div class="dream">
+          <img src="s3.jpg">
+        </div>
+        <div class="dream">
+          <img src="s4.jpg">
+        </div>
+        <div class="dream">
+          <img src="s5.jpg">
+        </div>
+      
+      </div>
+    </div>
+  </div>
+
+  <div id="flip4"><b>Zentangle Art</b></div>
+  <div id="panel4"><b><u>#What is Zentangle?</u></b>
+    <br>
+    <p>
+      Zentangle is a free meditative drawing which is structured from shapes with recurring patterns from a combination
+      of points, lines, simple curves, and circles. Characteristically, the resulting image can be viewed equally from
+      all sides, and the drawn shapes usually do not result in a direct object, unlike doodles.
+    </p>
+    <div class="container1">
+      <div class="box">
+        <div class="dream">
+          <img src="z1.jpg">
+        </div>
+        <div class="dream">
+          <img src="z4.jpg">
+        </div>
+        <div class="dream">
+          <img src="z2.jpg">
+        </div>
+        <div class="dream">
+          <img src="z5.jpg">
+        </div>
+        <div class="dream">
+          <img src="z3.jpg">
+        </div>
+      
+      </div>
+    </div>
+  </div>
+
+  <div id="flip5"><b>Abstract Art</b></div>
+  <div id="panel5"><b><u>#What is Abstract?</u></b>
+    <br>
+    <p>
+      Abstract art, non-figurative art, non-objective art, and non-representational art, are closely related terms. They
+      are similar, but perhaps not of identical meaning.
+      Abstraction indicates a departure from reality in depiction of imagery in art.
+    </p>
+    <div class="container1">
+      <div class="box">
+        <div class="dream">
+          <img src="a1.jpg">
+        </div>
+        <div class="dream">
+          <img src="a2.jpg">
+        </div>
+        <div class="dream">
+          <img src="a3.jpg">
+        </div>
+        <div class="dream">
+          <img src="a4.jpg">
+        </div>
+        <div class="dream">
+          <img src="a5.jpg">
+        </div>
+      
+      </div>
+    </div>
+  </div>
+
+  <div id="flip6"><b>Oil Painting</b></div>
+  <div id="panel6"><b><u>#What is Oil Painting?</u></b>
+    <br>
+    <p>
+      Oil painting is the process of painting with pigments with a medium of drying oil as the binder. It has been the
+      most common technique for artistic painting on wood panel or canvas for several centuries, spreading from Europe
+      to the rest of the world. The advantages of oil for painting images include "greater flexibility, richer and
+      denser colour, and a wider range from light to dark".But the process is slower, especially when one layer of
+      paint needs to be allowed to dry before another is applied.
+    </p>
+    <div class="container1">
+      <div class="box">
+        <div class="dream">
+          <img src="o1.jpg">
+        </div>
+        <div class="dream">
+          <img src="o2.jpg">
+        </div>
+        <div class="dream">
+          <img src="o3.jpg">
+        </div>
+        <div class="dream">
+          <img src="o4.jpg">
+        </div>
+        <div class="dream">
+          <img src="o5.jpg">
+        </div>
+      
+      </div>
+    </div>
+  </div>
+
+  <div id="flip7"><b>Sand Painting</b></div>
+  <div id="panel7"><b><u>#What is Sand Painting?</u></b>
+    <br>
+    <p>
+      Sandpainting is the art of pouring coloured sands, and powdered pigments from minerals or crystals, or pigments
+      from other natural or synthetic sources onto a surface to make a fixed or unfixed sand painting. Unfixed sand
+      paintings have a long established cultural history in numerous social groupings around the globe, and are often
+      temporary, ritual paintings prepared for religious or healing ceremonies. This form of art is also referred to as
+      drypainting.
+    </p>
+    <div class="container1">
+      <div class="box">
+        <div class="dream">
+          <img src="sp1.jpg">
+        </div>
+        <div class="dream">
+          <img src="sp2.jpg">
+        </div>
+        <div class="dream">
+          <img src="sp3.jpeg">
+        </div>
+        <div class="dream">
+          <img src="sp4.webp">
+        </div>
+        <div class="dream">
+          <img src="sp5.jpg">
+        </div>
+      
+      </div>
+    </div>
+  </div>
+
+  <div id="flip8"><b>Spray Painting</b></div>
+  <div id="panel8"><b><u>#What is Spray Painting?</u></b>
+    <br>
+    <p>
+      Spray painting is a painting technique in which a device sprays coating material (paint, ink, varnish, etc.)
+      through the air onto a surface. The most common types employ compressed gasu sually air to atomize and direct the
+      paint particles.Spray guns evolved from airbrushes, and the two are usually distinguished by their size and the
+      size of the spray
+      pattern they produce.
+    </p>
+    <div class="container1">
+      <div class="box">
+        <div class="dream">
+          <img src="spp1.jpg">
+        </div>
+        <div class="dream">
+          <img src="spp2.jpg">
+        </div>
+        <div class="dream">
+          <img src="spp3.jpg">
+        </div>
+        <div class="dream">
+          <img src="spp4.jpg">
+        </div>
+        <div class="dream">
+          <img src="spp5.jpg">
+        </div>
+      
+      </div>
+    </div>
+  </div>
+
+  <div id="flip9"><b>Digital Painting</b></div>
+  <div id="panel9"><b><u>#What is Digital Painting?</u></b>
+    <br>
+    <p>
+      Digital painting is a relatively new but an already established art form. Its a medium that typically combines a
+      computer, a graphics tablet, and software of choice.The artist uses painting and drawing techniques with the
+      stylus that comes with the graphics tablet to create 2D paintings within a digital art software.
+    </p>
+    <div class="container1">
+      <div class="box">
+        <div class="dream">
+          <img src="dg1.jpg">
+        </div>
+        <div class="dream">
+          <img src="dg2.jpg">
+        </div>
+        <div class="dream">
+          <img src="dg3.jpg">
+        </div>
+        <div class="dream">
+          <img src="dg4.jpg">
+        </div>
+        <div class="dream">
+          <img src="dg5.jpg">
+        </div>
+      
+      </div>
+    </div>
+  </div>
+
+  <div id="flip10"><b>Cartoon Drawing</b></div>
+  <div id="panel10"><b><u>#What is Cartoon Drawing?</u></b>
+    <br>
+    <p>
+      Cartoon is a type of illustration that is typically drawn, sometimes animated, in an unrealistic or semi-realistic
+      style. The specific meaning has evolved over time, but the modern usage usually refers to either: an image or
+      series of images intended for satire, caricature, or humor; or a motion picture that relies on a sequence of
+      illustrations for its animation. Someone who creates cartoons in the first sense is called a cartoonist,and in
+      the second sense they are usually called an animator.
+    </p>
+    <div class="container1">
+      <div class="box">
+        <div class="dream">
+          <img src="c2.jpg">
+        </div>
+        <div class="dream">
+          <img src="c1.jpg">
+        </div>
+        <div class="dream">
+          <img src="c3.webp">
+        </div>
+        <div class="dream">
+          <img src="c4.jpg">
+        </div>
+        <div class="dream">
+          <img src="c5.jpg">
+        </div>
+      
+      </div>
+    </div> 
+  </div>
+
+</body>
+
+</html>
